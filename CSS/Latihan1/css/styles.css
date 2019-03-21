@@ -2,8 +2,9 @@
     width: 1000px;
     margin: auto;
     margin-top: -10px;
+    font-family: 'Merriweather', serif;
     background-color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
     font-size: 18px;
 }
 .header {
@@ -12,11 +13,12 @@
 }
 .header h1 {
     color: rgba(32, 156, 178, 0.651);
-    font-family: cursive;
+    font-family: 'Sacramento', cursive;
     text-align: center;
 }
 .header h2 {
     color:rgba(32, 156, 178, 0.651);
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 #mountain{
@@ -36,7 +38,7 @@
     
 }
 #unhas {
-    width: 16%;
+    width: 16%; 
     padding-top: 50px;
     display: block;
     margin: 0px auto;
@@ -44,11 +46,12 @@
 }
 .p {
     text-align: center;
-    padding: 0px 310px 30px 310px;
+    padding: 0px 290px 30px 290px;
+    line-height: 2em;
 }
 #h2 {
     text-align: center;
-    font-family: Calibri Light;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     padding: 10px;
     color:rgb(81, 193, 212);
@@ -56,27 +59,31 @@
 .p-ahli1 {
     padding-right: 160px;
     padding-bottom: 40px;
+    line-height: 2em;
 }
 .h-ahli1{
     padding-top: 20px;
-    color:rgb(57, 160, 207); 
+    color:rgb(48, 144, 156); 
+    font-family: 'Montserrat', sans-serif;
 }
 .p-ahli2 {
     padding-left: 160px;
-    padding-bottom: 115px;
+    padding-bottom: 20px;
+    line-height: 2em;
 }
 .h-ahli2{
     padding-left: 160px;
     padding-top: 15px;
-    color:rgb(57, 160, 207); 
+    color:rgb(48, 144, 156);  
+    font-family: 'Montserrat', sans-serif;
 }
 #hr {
     border:none;
-    border-top:15px dotted rgba(128, 128, 128, 0.342);
+    border-top:9px dotted rgba(128, 128, 128, 0.342);
     color:#fff;
     background-color:#fff;
-    height:6px;
-    width:7%;
+    height:10px;
+    width:8%;
 }
 .img1 {
     float: left;
@@ -90,39 +97,50 @@
     width: 150px;
     height: 150px;
     margin: 0px;
-    padding: 0px 150px 10px 10px; 
+    padding: 0px 150px 0px 10px; 
 }
 .kontak {
     text-align: center;
     padding-bottom: 30px;
 }
 .kontak h3{
-    color:rgb(57, 160, 207);
+    color:rgb(48, 144, 156); 
+    padding-bottom: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.kontak p{
+    padding-bottom: 14px;
 }
 .button{
 	background-color:  rgba(32, 156, 178, 0.651);
-	padding: 8px 15px;
+    padding: 8px 15px;
 	color: #FFF;
 	border-radius: 5px;
     text-decoration: none;
+    margin: 10px;
 }
 .button:hover{
-	background-color: rgba(32, 156, 178, 0.651);
+	background-color: rgba(19, 64, 116, 0.651);
 }
 .footer {
     background-color : rgba(32, 156, 178, 0.651);
-    padding: 10px 0px 20px 0px;
+    padding-top: 30px; padding-bottom: 20px;
     text-align: center;
     
 }
 .footer-link{
-	text-decoration: none;
-	color: #DDD;
-	padding-left: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: rgb(48, 144, 156); 
+    padding: 30px;
+    
 }
 .footer-link:hover{
 	color: #FFF;
 }
 .copyright {
     color: white;
+    font-size: 14px;
+    padding-top: 13px;
 }
